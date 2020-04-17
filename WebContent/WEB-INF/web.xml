@@ -28,6 +28,7 @@
       <param-name>fromEncoding</param-name>
       <param-value>ISO-8859-1</param-value>
     </init-param>
+
     <init-param>
       <param-name>toEncoding</param-name>
       <param-value>UTF-8</param-value>

@@ -43,6 +43,7 @@ public class AdController extends BaseController {
 	public String add(ModelMap model) {
 		model.addAttribute("types", Type.values());
 		model.addAttribute("adPositions", adPositionService.findAll());
+		System.out.print("haha");
 		return "/admin/ad/add";
 	}
 
